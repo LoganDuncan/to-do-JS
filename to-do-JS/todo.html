@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Track Your Tasks</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Track Your Tasks</h1>
+        </div>
+        <div class="row form">
+            <form id="taskAdder">
+                <div class="form-group">
+                    <label>Task Name</label>
+                    <input type="text" class="form-control" id="taskTitle"><span data-title>Please enter a task
+                        title.</span>
+                </div>
+                <div class="form-group">
+                    <label>Notes</label>
+                    <input type="text" class="form-control" id="taskNotes"><span data-notes>Please enter a task
+                        description.</span>
+                </div>
+                <button type="submit" id="submit" class="btn btn-primary">Add Task</button>
+            </form>
+        </div>
+
+
+        <div id="taskDisplay" class="row"></div>
+
+        <div class="row">
+            <footer>
+                <p>&copy; 2020 Logan Duncan</p>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
